@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: black;
+    font-size: 10px;
+}
+
+.bg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.bg::before{
+    background-image:url("https://cdn.hipwallpaper.com/i/65/60/7MyPRY.jpg");
+    height: 100vh;
+    width:100vw;
+    background-position: center;
+    background-size: cover;
+    filter:blur(4px);
+    opacity: 0.9;
+    content: "";
+    position: fixed;
+    z-index: -1;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    list-style-type: none;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.initiate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    width:100%;
+}
+
+#logo{
+    width:20%;
+    margin-bottom: 4rem;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#play_btn{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    width: 20%;
+    background-color: transparent;
+    background-color:  lime;
+    border: none;
+    border-radius: 10px;
+    transition: .4s;
+    letter-spacing: 5px ;
+    font-weight: 800;
+
+}
+
+#play_btn:hover{ 
+    box-shadow: 0 0 40px lime,0 0 40px lime,0 0 40px lime;
+    background-color: lime;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.about{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    height: 50vh;
+    font-size: 2rem;
+    border: 2px solid gray;
+    background-color:rgba(rgb(212, 105, 105), rgb(67, 180, 67), rgb(133, 133, 216), 0.5) ;
+}
