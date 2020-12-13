@@ -85,11 +85,15 @@ body{
 }
 
 .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     padding: 20px;
     letter-spacing: 3px;
     font-family: monospace;
-    height: 50vh;
+    height: 60vh;
     font-size: 2rem;
     border-radius: 20px;
     border: none;
