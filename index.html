@@ -5,28 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main/css/style.css">
     <link rel="shortcut icon" href="./main/images/logo.gif" type="image/x-icon">
+
     <title>Who Done it Hacks</title>
 
 </head>
 <body>
     <nav>
         <ul class="navbar" >
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
+            <a href="#"><li>Home</li></a>
+            <a href="#about"> <li>About</li></a>
+            <a href=""><li>Contact Us</li></a>
         </ul>
     </nav>
     <div class="bg">
-    <div class="initiate">
-        <div id="logo">
-            <img src="./main/images/logo.gif" alt="logo">
+        <div class="initiate">
+            <div id="logo">
+                <img src="./main/images/logo.gif" alt="logo">
+            </div>
+            <button id="play_btn" onclick="start">START</button>
         </div>
-        <button id="play_btn" onclick="start">START</button>
-    </div>
     </div> 
-    <div class="about">
-        welcome to the game
+
+    <div class="about" id="about">
+        Welcome to the 221B-There is only one path<br>
+        <p>A Mysterious game where you can help SHERLOCK to find clues for his SPY Operation </p><br>
+        So Let's Ignite your Detective mind and help SHERLOCK
     </div>
+
+
+    <div class="about" id="about">
+       CONTACT US<br>
+        <p>MADE BY <br><br> <a href="https://github.com/DebugAgrawal" target="_blank"> <span style="color: greenyellow;">DEEPAK</span></a>  AND  <a target="_blank" href="https://github.com/ShashankMisal"><span style="color: greenyellow;">SHASHANK</span></a> </p><br>
+    </div>
+   
 
     <script>
        document.getElementById('play_btn').onclick = function changeContent() {
