@@ -21,11 +21,18 @@
         <div id="logo">
             <img src="./main/images/logo.gif" alt="logo">
         </div>
-        <button id="play_btn">START</button>
+        <button id="play_btn" onclick="start">START</button>
     </div>
     </div> 
     <div class="about">
         welcome to the game
     </div>
+
+    <script>
+       document.getElementById('play_btn').onclick = function changeContent() {
+            window.location.replace("./main/html/window.html") 
+        }
+    </script>
+
 </body>
 </html>
