@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>morse</title>
+    <title>FINAL LEVEL</title>
     <link rel="stylesheet" href="../css/levels.css">
 </head>
 <body>
@@ -17,10 +17,9 @@ const secretCode='221B';
 window.addEventListener('keyup', (e) => {
     pressed.push(e.key);
     pressed.splice(-secretCode-1,pressed.length-secretCode.length);
-    console.log(pressed);
 
     if(pressed.join('').includes(secretCode)){
-            console.log("objectobject")
+        window.location.replace("../../index.html") 
     }  
 
 })
