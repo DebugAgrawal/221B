@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+#mainDiv{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.bg_black{
+    background-color: black;
+}
+
+#outerDiv{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.lights{
+    font-size: 200px;
+    color:rgb(8, 8, 8);
+}
+
+.morse{
+    margin-top: 350px;
+    margin-left: 80px;
+    font-size: 80px;
+    color:rgb(255, 255, 255);
+
+}
+
+a{
+    color:black;    
+    font-size: 10px;
+
+}
