@@ -34,7 +34,6 @@ body{
     font-size: 1.5rem;
     color: white;
     list-style-type: none;
-    letter-spacing: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -59,11 +58,8 @@ body{
 }
 
 #play_btn{
-    align-items: center;
-    justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4rem;
-    width: 20%;
+    font-size: 3.6rem;
     background-color: transparent;
     background-color:  lime;
     border: none;
@@ -90,10 +86,9 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 20px;
+    padding: 17px;
     letter-spacing: 3px;
     font-family: monospace;
-    height: 60vh;
     font-size: 2rem;
     border-radius: 20px;
     border: none;
