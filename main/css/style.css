@@ -37,6 +37,13 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+.navbar a:hover{
+    color: lime;
+}
+
+
+
 .initiate{
     display: flex;
     flex-direction: column;
@@ -47,7 +54,7 @@ body{
 }
 
 #logo{
-    width:20%;
+    width:16.5rem;
     margin-bottom: 4rem;
 }
 
